@@ -5,7 +5,7 @@
   "label": {
     "en": [ "Old Hera Temple at Paestum" ]
   },
-  "summary": { "en": [ "This 3D model is a simplified version of the Mithraeum in the Baths of Mithras in Ostia. It is intended for learning purposes." ] },
+  "summary": { "en": [ "This 3D model is a simplified version of the Old Hera Temple in Paestum. It is intended for learning purposes." ] },
   "items": [
     {
       "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/scene1/p1/1",
@@ -68,7 +68,7 @@
       },
       "value": {
         "@none": [
-          "This 3D model is a simplified version of the old Hera Temple at Paestum. It is intended for learning purposes."
+          "This 3D model is a simplified version of the Old Hera Temple at Paestum. It is intended for learning purposes."
         ]
       }
     },
@@ -116,7 +116,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://de.wikipedia.org/wiki/Paestum#Tempel/">https://de.wikipedia.org/wiki/Paestum#Tempel<a/>"
+          "<a href=\"https://de.wikipedia.org/wiki/Paestum#Tempel/\">https://de.wikipedia.org/wiki/Paestum#Tempel<a/>"
         ]
       }
     },
@@ -176,7 +176,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://pleiades.stoa.org/places/442733">https://pleiades.stoa.org/places/442733<a/>"
+          "<a href=\"https://pleiades.stoa.org/places/442733\">https://pleiades.stoa.org/places/442733<a/>"
         ]
       }
     },
