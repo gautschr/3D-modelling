@@ -219,18 +219,6 @@
     {
       "label": {
         "@none": [
-          "Author ORCID"
-        ]
-      },
-      "value": {
-        "@none": [
-          "<a href=\"https://orcid.org/0000-0002-5470-8720\">https://orcid.org/0000-0002-5470-8720<a/>"
-        ]
-      }
-    },
-    {
-      "label": {
-        "@none": [
           "Used Software"
         ]
       },
@@ -284,7 +272,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/Paradata_of_the_Old_Hera_Temple_at_Paestum.pdf\">Paradata of the Old Hera Temple at Paestum<a/>"
+          "<a href=\"https://raw.githubusercontent.com/gautschr/3D-modelling/main/iiif_manifests/herapaestum/Paradata_of_the_Old_Hera_Temple_at_Paestum.pdf\">Paradata of the Old Hera Temple at Paestum<a/>"
         ]
       }
     }
@@ -292,7 +280,7 @@
   "attribution": "Provided by Flurin Jegge",
   "thumbnail": [
     {
-      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/thumb.png",
+      "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/iiif_manifests/herapaestum/thumb.png",
       "type": "Image"
     }
   ]
