@@ -296,7 +296,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://...\">Paradata of the Mithraeum in the Baths of Mithras in Ostia<a/>"
+          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_mitreo.pdf\">Paradata of the Mithraeum in the Baths of Mithras in Ostia<a/>"
         ]
       }
     }
@@ -304,7 +304,7 @@
   "attribution": "Provided by Rita Gautschy",
   "thumbnail": [
     {
-      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/thumb.png",
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/mitreo/thumb.png",
       "type": "Image"
     }
   ]
