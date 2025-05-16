@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/4/context.json",
-  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/zytglogge/zytglogge.json",
+  "id": "https://github.com/gautschr/3D-modelling/iiif_manifests/zytglogge/zytglogge.json",
   "type": "Manifest",
   "label": {
     "en": [ "Historical Zytglogge in Bern" ]
