@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/4/context.json",
-  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/St._Gallus_Kirche/St._Gallus_Kirche.json",
+  "id": "https://github.com/gautschr/3D-modelling/iiif_manifests/St._Gallus_Kirche/St._Gallus_Kirche.json",
   "type": "Manifest",
   "label": {
     "en": [ "Saint Gallus Church at Kaiseraugst" ]
