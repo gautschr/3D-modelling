@@ -1,0 +1,275 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/arapacis/arapacis.json",
+  "type": "Manifest",
+  "label": {
+    "en": [ " Ara Pacis Augustae in Rome" ]
+  },
+  "summary": { "en": [ "This 3D model is a simplified version of Ara Pacis Augustae in Rome. It is intended for learning purposes." ] },
+  "items": [
+    {
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/arapacis/scene1/p1/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/arapacis/scene1/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/arapacis/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/arapacis.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/arapacis/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.03,
+                    "z": 0.05
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Ara Pacis Augustae in Rome"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Description"
+        ]
+      },
+      "value": {
+        "@none": [
+          "This 3D model is a simplified version of the Ara Pacis Augustae in Rome. It is intended for learning purposes."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Course information"
+        ]
+      },
+      "value": {
+        "@none": [
+          "The 3D model was created during a class on 3D modeling for archaeologists taught at the University of Basel in the spring semester 2025. A very limited amount of time was spent to build the model to illustrate what is possible for beginners without any prior knowledge of the software Blender. The focus of the class was more on the creation of paradata, metadata, and of a IIIF manifest according to the current recommendations of the IIIF 3D TSG group than on delivering a final 3D model of good quality. Another important aim of this course was to show students how they can deploy and view their 3D model."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Ara pacis Augustae in Rome"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object type"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Temple"
+        ]
+      }
+    },
+       {
+      "label": {
+        "@none": [
+          "Wikipedia"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://de.wikipedia.org/wiki/Ara_Pacis#Tempel/\">https://https://de.wikipedia.org/wiki/Ara_Pacis#Tempel<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Official website"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.arapacis.it/it/percorsi/altare2/\">https://www.arapacis.it/it/percorsi/altare2/<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Rome"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Detail"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Sanctuary"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location GoogleMaps"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.google.com/maps/place/Museo+dell'Ara+Pacis/@41.9058448,12.4728289,17z/data=!4m6!3m5!1s0x132f6044aa97c881:0x11236bcbd4eec34f!8m2!3d41.9058408!4d12.4754092!16s%2Fm%2F0wy1x_b?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D\">https://www.google.com/maps/place/Museo+dell'Ara+Pacis/@41.9058448,12.4728289,17z/data=!4m6!3m5!1s0x132f6044aa97c881:0x11236bcbd4eec34f!8m2!3d41.9058408!4d12.4754092!16s%2Fm%2F0wy1x_b?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Model Licence"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">Attribution 4.0 International (CC BY)<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Lucrezia Rossi"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Used Software"
+        ]
+      },
+      "value": {
+        "@none": [
+          "sketchUp web and Blender 4.4"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Lucrezia Rossi"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creation Time Span"
+        ]
+      },
+      "value": {
+        "@none": [
+          "2025-02-15 — 2025-05-16"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Paradata"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_of_the_Ara_Pacis_Augustae_in_Rome.pdf\">Paradata of the Ara Pacis Augustae in Rome<a/>"
+        ]
+      }
+    }
+  ],
+  "attribution": "Provided by Lucrezia Rossi",
+  "thumbnail": [
+    {
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/arapacis/thumb.png",
+      "type": "Image"
+    }
+  ]
+}
