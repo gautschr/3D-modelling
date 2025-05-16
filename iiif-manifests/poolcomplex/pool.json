@@ -1,0 +1,263 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/poolcomplex/pool.json",
+  "type": "Manifest",
+  "label": {
+    "en": [ "Pool Complex at Petra" ]
+  },
+  "summary": { "en": [ "This 3D model is a simplified reconstruction of the pool complex in Petra. It is intended for learning purposes." ] },
+  "items": [
+    {
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/poolcomplex/scene1/p1/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/poolcomplex/scene1/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/poolcomplex/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/pool.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/poolcomplex/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.03,
+                    "z": 0.05
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Pool Complex in Petra"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Description"
+        ]
+      },
+      "value": {
+        "@none": [
+          "This 3D model is a simplified reconstruction of the pool complex in Petra. It is intended for learning purposes."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Course information"
+        ]
+      },
+      "value": {
+        "@none": [
+          "The 3D model was created during a class on 3D modeling for archaeologists taught at the University of Basel in the spring semester 2025. A very limited amount of time was spent to build the model to illustrate what is possible for beginners without any prior knowledge of the software Blender. The focus of the class was more on the creation of paradata, metadata, and of a IIIF manifest according to the current recommendations of the IIIF 3D TSG group than on delivering a final 3D model of good quality. Another important aim of this course was to show students how they can deploy and view their 3D model."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Pool Complex in Petra"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object type"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Pool"
+        ]
+      }
+    },
+       {
+      "label": {
+        "@none": [
+          "Wikipedia"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://en.wikipedia.org/wiki/Petra_Pool_and_Garden_Complex/\">hhttps://en.wikipedia.org/wiki/Petra_Pool_and_Garden_Complex<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Petra"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Detail"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Lower Market"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location GoogleMaps"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.google.com/maps/place/30°19'44.0%22N+35°26'33.0%22E/@30.328889,35.4425,15z/data=!4m4!3m3!8m2!3d30.328889!4d35.4425?hl=en&entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D\">https://www.google.com/maps/place/30°19'44.0%22N+35°26'33.0%22E/@30.328889,35.4425,15z/data=!4m4!3m3!8m2!3d30.328889!4d35.4425?hl=en&entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Model Licence"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://creativecommons.org/licenses/by/3.0/deed.en\">Attribution 3.0 International (CC BY)<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Daniel Rancic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Used Software"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Blender 3.6"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Daniel Rancic"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creation Time Span"
+        ]
+      },
+      "value": {
+        "@none": [
+          "2025-02-15 — 2025-05-16"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Paradata"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_of_the_Old_Hera_Temple_at_Paestum.pdf\">Paradata of the Old Hera Temple at Paestum<a/>"
+        ]
+      }
+    }
+  ],
+  "attribution": "Provided by Daniel Rancic",
+  "thumbnail": [
+    {
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/herapaestum/thumb.png",
+      "type": "Image"
+    }
+  ]
+}
