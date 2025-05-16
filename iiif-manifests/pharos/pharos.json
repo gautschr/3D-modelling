@@ -1,0 +1,263 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/pharos/pharos.json",
+  "type": "Manifest",
+  "label": {
+    "en": [ "antique Pharos of Alexandria" ]
+  },
+  "summary": { "en": [ "This 3D model is a simplified version of the antique Pharos of Alexandria. It is intended for learning purposes." ] },
+  "items": [
+    {
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/pharos/scene1/p1/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/pharos/scene1/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/pharos/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/herapaestum.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/pharos/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.03,
+                    "z": 0.05
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Antique Pharos of Alexandria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Description"
+        ]
+      },
+      "value": {
+        "@none": [
+          "This 3D model is a simplified version of the antique Pharos of Alexandria. It is intended for learning purposes."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Course information"
+        ]
+      },
+      "value": {
+        "@none": [
+          "The 3D model was created during a class on 3D modeling for archaeologists taught at the University of Basel in the spring semester 2025. A very limited amount of time was spent to build the model to illustrate what is possible for beginners without any prior knowledge of the software Blender. The focus of the class was more on the creation of paradata, metadata, and of a IIIF manifest according to the current recommendations of the IIIF 3D TSG group than on delivering a final 3D model of good quality. Another important aim of this course was to show students how they can deploy and view their 3D model."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Antique Pharos of Alexandria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object type"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Lighthouse"
+        ]
+      }
+    },
+       {
+      "label": {
+        "@none": [
+          "Wikipedia"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://de.wikipedia.org/wiki/Pharos_von_Alexandria\">https://de.wikipedia.org/wiki/Pharos_von_Alexandria<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Alexandria"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Detail"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Sanctuary"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location GoogleMaps"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.google.com/maps/place/Lighthouse+of+Alexandria/@31.2142472,29.8914324,17z/data=!4m6!3m5!1s0x14f5c59b6eccdc31:0x39a6e16955846edf!8m2!3d31.2142472!4d29.8914324!16s%2Fg%2F11t8d9z365?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Model Licence"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">Attribution 4.0 International (CC BY)<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Lena Jensen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Used Software"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Blender 4.4"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Lena Jensen"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creation Time Span"
+        ]
+      },
+      "value": {
+        "@none": [
+          "2025-02-15 — 2025-05-12"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Paradata"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_of_the_Antique_Pharos_of_Alexandria.pdf\">Paradata of the Antique Pharos of Alexandria<a/>"
+        ]
+      }
+    }
+  ],
+  "attribution": "Provided by Lena Jensen",
+  "thumbnail": [
+    {
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/pharos/thumb.png",
+      "type": "Image"
+    }
+  ]
+}
