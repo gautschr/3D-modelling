@@ -1,26 +1,26 @@
 {
   "@context": "http://iiif.io/api/presentation/4/context.json",
-  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/herapaestum.json",
+  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/aedesvestae/aedesvestae.json",
   "type": "Manifest",
   "label": {
-    "en": [ "Old Hera Temple at Paestum" ]
+    "en": [ "Tempel of Vesta in Rom" ]
   },
-  "summary": { "en": [ "This 3D model is a simplified version of the Old Hera Temple in Paestum. It is intended for learning purposes." ] },
+  "summary": { "en": [ "This 3D model is a simplified version of the Vesta Temple in Rom. It is intended for learning purposes." ] },
   "items": [
     {
-      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/scene1/p1/1",
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/aedesvestae/scene1/p1/1",
       "type": "Scene",
       "items": [
         {
-          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/scene1/p1/1",
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/aedesvestae/scene1/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/anno1",
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/aedesvestae/anno1",
               "type": "Annotation",
               "motivation": ["painting"],
               "body": {
-                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/herapaestum.glb",
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/aedesvestae.glb",
                 "type": "Model",
                 "format": "model/gltf-binary"
               },
@@ -28,7 +28,7 @@
                 "type": "SpecificResource",
                 "source": [
                   {
-                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/herapaestum/scene1/page/p1/1",
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/aedesvestae/scene1/page/p1/1",
                     "type": "Scene"
                   }
                 ],
@@ -56,7 +56,7 @@
       },
       "value": {
         "@none": [
-          "Old Hera Temple at Paestum"
+          "Templum of Vesta in Rom"
         ]
       }
     },
@@ -68,7 +68,7 @@
       },
       "value": {
         "@none": [
-          "This 3D model is a simplified version of the Old Hera Temple at Paestum. It is intended for learning purposes."
+          "This 3D model is a simplified version of the Templum of Vesta in Rom. It is intended for learning purposes."
         ]
       }
     },
@@ -92,7 +92,7 @@
       },
       "value": {
         "@none": [
-          "Old Hera Temple at Paestum"
+          "Templum of Vesta in Rom"
         ]
       }
     },
@@ -116,7 +116,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://de.wikipedia.org/wiki/Paestum#Tempel/\">https://de.wikipedia.org/wiki/Paestum#Tempel<a/>"
+          "<a href=\"https://de.wikipedia.org/wiki/Paestum#Tempel/\">https://en.wikipedia.org/wiki/Temple_of_Vesta"
         ]
       }
     },
