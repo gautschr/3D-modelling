@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/4/context.json",
-  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/arapacis/arapacis.json",
+  "id": "https://github.com/gautschr/3D-modelling/iiif_manifests/arapacis/arapacis.json",
   "type": "Manifest",
   "label": {
     "en": [ " Ara Pacis Augustae in Rome" ]
