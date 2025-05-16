@@ -116,19 +116,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://de.wikipedia.org/wiki/Paestum#Tempel/\">https://en.wikipedia.org/wiki/Temple_of_Vesta"
-        ]
-      }
-    },
-    {
-      "label": {
-        "@none": [
-          "Official website"
-        ]
-      },
-      "value": {
-        "@none": [
-          "<a href=\"https://museopaestum.cultura.gov.it/\">https://museopaestum.cultura.gov.it/<a/>"
+          "<a href=\"https://de.wikipedia.org/wiki/Paestum#Tempel/\">https://en.wikipedia.org/wiki/Temple_of_Vesta#Tempel<a/>"
         ]
       }
     },
@@ -164,19 +152,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://www.google.com/maps/place/Tempio+di+Hera+I/@40.420171,15.005844,414m/data=!3m1!1e3!4m6!3m5!1s0x133bfd00394bf31b:0x35da119cfad73fa3!8m2!3d40.4192898!4d15.0053803!16s%2Fg%2F11vwvjhhqh?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D\">https://www.google.com/maps/place/Tempio+di+Hera+I/@40.420171,15.005844,414m/data=!3m1!1e3!4m6!3m5!1s0x133bfd00394bf31b:0x35da119cfad73fa3!8m2!3d40.4192898!4d15.0053803!16s%2Fg%2F11vwvjhhqh?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D<a/>"
-        ]
-      }
-    },
-    {
-      "label": {
-        "@none": [
-          "Location Pleiades"
-        ]
-      },
-      "value": {
-        "@none": [
-          "<a href=\"https://pleiades.stoa.org/places/442733\">https://pleiades.stoa.org/places/442733<a/>"
+          "<a href=\">https://www.google.com/maps/place/Tempio+di+Vesta/@41.891715,12.4836342,17z/data=!3m1!4b1!4m6!3m5!1s0x132f61b45fc100eb:0x1416f5eaafacf4a0!8m2!3d41.891715!4d12.4862091!16zL20vMDY5dHFo?entry=ttu&g_ep=EgoyMDI1MDUxMy4xIKXMDSoASAFQAw%3D%3D<a/>"
         ]
       }
     },
@@ -200,7 +176,7 @@
       },
       "value": {
         "@none": [
-          "Flurin Jegge"
+          "Federico Fibbioli"
         ]
       }
     },
