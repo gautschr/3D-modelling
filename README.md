@@ -36,14 +36,15 @@ Thus, your full address may be as follows:
 <br>
 
 ### **[Universal Viewer:](https://universalviewer.io/)**
-<br>
 To use Universal Viewer, simply append the address of your own IIIF manifest to the following web address section:
 <br>
-**<https://uv-v4.netlify.app/#?manifest=](https://uv-v4.netlify.app/#?manifest=>**
+**<https://uv-v4.netlify.app/#?manifest=>**
+<br>
 <br>
 Thus, your full address may be as follows:
 <br>
 [https://uv-v4.netlify.app/#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json](https://uv-v4.netlify.app/#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json)
+<br>
 <br>
 [Here](https://uv-v4.netlify.app/#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
  
