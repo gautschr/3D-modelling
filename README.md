@@ -37,7 +37,7 @@ To use MorphoSource, simply append the address of your own IIIF manifesto to the
 <br>
 Thus, your full address may be as follows: 
 <br>
-https&#8204;://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
+https&#8204;://www&#8204;.morphosource.org/uv/uv.html#?manifest=https&#8204;://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
 <br>
 <br>
 [Here](https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
@@ -53,7 +53,7 @@ To use Universal Viewer, simply append the address of your own IIIF manifesto to
 <br>
 Thus, your full address may be as follows:
 <br>
-https&#8204;://uv-v4.netlify.app/#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
+https&#8204;://uv-v4.netlify.app/#?manifest=https&#8204;://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
 <br>
 <br>
 [Here](https://uv-v4.netlify.app/#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
