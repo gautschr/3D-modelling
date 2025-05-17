@@ -12,7 +12,7 @@ Repository for the class "3D-Modellierung und Georeferenzierung für Archäolog*
 # Why a IIIF manifesto and the 3D model need to be deployed somewhere
 You need to deploy the 3D model and the IIIF-manifesto, otherwise you will run into so-called **CORS errors**. Such a CORS error (Cross-Origin Resource Sharing) occurs when a web application tries to access resources from a different domain than the one that provided the page. The server likely will not allow this with the result that the browser will block the request for security reasons.
 <br>
-<br>>
+<br>
 
 # How to deploy a 3D model with the help of GitHub Pages
 
@@ -37,8 +37,7 @@ The next step ist to change the access state of the repository from `private` to
 <p align="center">
   https&#8204;://my_username.github.io/my_repository/
 </p>
-<br>
-Each time something is changed in the respective repository, a new deploament of the page will be triggered.
+Each time something is changed in the respective repository, a new deployment of the page will be triggered.
 <br>
 <br>
 
