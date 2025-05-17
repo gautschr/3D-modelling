@@ -2,14 +2,17 @@
 
 Repository for the class "3D-Modellierung und Georeferenzierung für Archäolog*innen" taught at the University of Basel in the spring semester 2025.
 <br>
+<br>
 
 # IIIF manifests
 
+<br>
 <br>
 
 # Why a IIIF manifesto and the 3D model need to be deployed somewhere
 You need to deploy the 3D model and the IIIF-manifesto, otherwise you will run into so-called **CORS errors**. Such a CORS error (Cross-Origin Resource Sharing) occurs when a web application tries to access resources from a different domain than the one that provided the page. The server likely will not allow this with the result that the browser will block the request for security reasons.
 <br>
+<br>>
 
 # How to deploy a 3D model with the help of GitHub Pages
 
@@ -25,10 +28,19 @@ You need to have the following items ready:
 
 Create a new GitHub repository `my_repository` where you want to store your 3D models, the iiif-manifests, and the paradata information. I suggest to organise the material which will be uploaded into further sub-folders.
 <br>
-1. create a subfolder `assets`: here the 3D model `my_model.glb` will be uploaded
-2. create a subfolder `iiif-manifests`: here the IIIF manifesto `my_manifest.json` and the thumbnail `thumb.png` will be uploaded
-3. create a subfolder `paradata`: here the pdf file with the paradata `my_paradata.pdf` will be uploaded
+1. create a subfolder `assets`: upload the 3D model `my_model.glb` here
+2. create a subfolder `iiif-manifests`: upload the IIIF manifesto `my_manifest.json` and the thumbnail `thumb.png` here. For our class we created further subfolders within this subfolder - one for each person and object.
+3. create a subfolder `paradata`: upload the pdf file with the paradata `my_paradata.pdf` here
 
+The next step ist to change the access state of the repository from `private` to `public` in the `Settings` tab. Then in the `Code and automation` section in the `Settings` tab go to `Pages`. In the section `Build and deployment` choose `Deployment from branch`, the branch `main`, the folder `root` and finally click `Save`. This last action causes the GitHub page to be created and to be live at an address which will look like as follows:
+<br>
+<p align="center">
+  https&#8204;://my_username.github.io/my_repository/
+</p>
+<br>
+Each time something is changed in the respective repository, a new deploament of the page will be triggered.
+<br>
+<br>
 
 # Displaying and discovering your 3D model
 
