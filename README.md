@@ -26,9 +26,11 @@ To use MorphoSource, simply append the address of your own IIIF manifest to the 
 <br>
 **<https://www.morphosource.org/uv/uv.html#?manifest=>**
 <br>
+<br>
 Thus, your full address may be as follows: 
 <br>
 [https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json](https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json)
+<br>
 <br>
 [Here](https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
 <br>
