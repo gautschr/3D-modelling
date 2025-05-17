@@ -48,7 +48,7 @@ https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_
 To use Universal Viewer, simply append the address of your own IIIF manifesto to the following web address section:
 <br>
 <p align="center">
-  <https://uv-v4.netlify.app/#?manifest=>
+  https://uv-v4.netlify.app/#?manifest=
 </p>
 <br>
 Thus, your full address may be as follows:
