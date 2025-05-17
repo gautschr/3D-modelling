@@ -19,8 +19,7 @@ Create a GitHub repository
 
 # Displaying and discovering your 3D model
 
-<p>There are several IIIF compatible viewers offered by institutions and projects which allow to display and discover your 3D model by simply specifying the address of your IIIF manifest in the html address. Here is a (non-extensive) list: </p>
-<br>
+There are several IIIF compatible viewers offered by institutions and projects which allow to display and discover your 3D model by simply specifying the address of your IIIF manifest in the html address. Here is a (non-extensive) list:
 <h2>
  [MorphoSource](https://www.morphosource.org/) - a 3D repository of Duke University:
 </h2>
