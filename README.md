@@ -6,6 +6,11 @@ Repository for the class "3D-Modellierung und Georeferenzierung für Archäolog*
 
 # IIIF manifests
 
+There are several ways to create a IIIF manifesto. 
+
+1. If you have some knowledge about IIIF manifests choose a sample IIIF manifesto from the [IIIF GitHub repository](https://github.com/IIIF/3d/tree/main/manifests) and adapt it manually to your needs.
+2. Use the newly developed Blender plugin to create a more complex IIIF manifesto.
+3. ...
 <br>
 <br>
 
@@ -17,6 +22,7 @@ You need to deploy the 3D model and the IIIF-manifesto, otherwise you will run i
 # How to deploy a 3D model with the help of GitHub Pages
 
 In order to make the final version of the 3D model publicly available you can use GitHub Pages. GitHub offers one site per GitHub account and organisation for free.
+<br>
 <br>
 Log in to your GitHub account, or first create an account if you haven't one yet.
 
@@ -37,7 +43,7 @@ The next step ist to change the access state of the repository from `private` to
 <p align="center">
   https&#8204;://my_username.github.io/my_repository/
 </p>
-Each time something is changed in the respective repository, a new deployment of the page will be triggered.
+Each time something is changed in the respective repository, a new deployment of the page will be triggered automatically!
 <br>
 <br>
 
