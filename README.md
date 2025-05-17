@@ -20,27 +20,25 @@ Create a GitHub repository
 # Displaying and discovering your 3D model
 
 There are several IIIF compatible viewers offered by institutions and projects which allow to display and discover your 3D model by simply specifying the address of your IIIF manifest in the html address. Here is a (non-extensive) list:
-<h2>
- [MorphoSource](https://www.morphosource.org/) - a 3D repository of Duke University:
-</h2>
+<br>
+**[MorphoSource](https://www.morphosource.org/)** - a 3D repository of Duke University:
 <br>
 To use MorphoSource, simply append the address of your own IIIF manifest to the following web address section:
 <br>
-[https://www.morphosource.org/uv/uv.html#?manifest=](https://www.morphosource.org/uv/uv.html#?manifest=)
+**<https://www.morphosource.org/uv/uv.html#?manifest=>**
 <br>
 Thus, your full address may be as follows: 
 <br>
 [https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json](https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json)
 <br>
 [Here](https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
+<br>
 
-<h2>
- [Universal Viewer:](https://universalviewer.io/)
-</h2>
+**[Universal Viewer:](https://universalviewer.io/)**
 <br>
 To use Universal Viewer, simply append the address of your own IIIF manifest to the following web address section:
 <br>
-[https://uv-v4.netlify.app/#?manifest=](https://uv-v4.netlify.app/#?manifest=)
+**<https://uv-v4.netlify.app/#?manifest=](https://uv-v4.netlify.app/#?manifest=>**
 <br>
 Thus, your full address may be as follows:
 <br>
