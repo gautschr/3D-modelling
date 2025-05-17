@@ -32,7 +32,7 @@ There are several IIIF compatible viewers offered by institutions and projects w
 To use MorphoSource, simply append the address of your own IIIF manifesto to the following web address section:
 <br>
 <p align="center">
-  **<https://www.morphosource.org/uv/uv.html#?manifest=>**
+  https://www.morphosource.org/uv/uv.html#?manifest=
 </p>
 <br>
 <br>
