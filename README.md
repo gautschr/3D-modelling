@@ -15,7 +15,8 @@ You need to have the following items ready:
 2. IIIF manifest: my_manifest.json
 3. Paradata: paradata documentation in pdf format
 
-Create a GitHub repository
+Create a GitHub repository 'my_repository' where you want to store your 3D models, the iiif-manifests, and the paradata information.
+
 
 # Displaying and discovering your 3D model
 
@@ -33,6 +34,7 @@ Thus, your full address may be as follows:
 <br>
 <br>
 [Here](https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
+<br>
 <br>
 
 ### **[Universal Viewer:](https://universalviewer.io/)**
