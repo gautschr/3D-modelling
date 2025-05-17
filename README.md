@@ -35,7 +35,6 @@ To use MorphoSource, simply append the address of your own IIIF manifesto to the
   https://www.morphosource.org/uv/uv.html#?manifest=
 </p>
 <br>
-<br>
 Thus, your full address may be as follows: 
 <br>
 https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
@@ -48,8 +47,9 @@ https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_
 ### **[Universal Viewer:](https://universalviewer.io/)**
 To use Universal Viewer, simply append the address of your own IIIF manifesto to the following web address section:
 <br>
->>> **<https://uv-v4.netlify.app/#?manifest=>**
-<br>
+<p align="center">
+  <https://uv-v4.netlify.app/#?manifest=>
+</p>
 <br>
 Thus, your full address may be as follows:
 <br>
