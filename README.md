@@ -24,7 +24,7 @@ There are several IIIF compatible viewers offered by institutions and projects w
 ### **[MorphoSource](https://www.morphosource.org/)** - a 3D repository of Duke University:
 To use MorphoSource, simply append the address of your own IIIF manifest to the following web address section:
 <br>
-<p style="text-align:center;"><https://www.morphosource.org/uv/uv.html#?manifest=></p>
+**<https://www.morphosource.org/uv/uv.html#?manifest=>**
 <br>
 Thus, your full address may be as follows: 
 <br>
