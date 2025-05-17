@@ -41,7 +41,7 @@ Thus, your full address may be as follows:
 https&#8204;://www&#8204;.morphosource.org/uv/uv.html#?manifest=https&#8204;://my_username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
 </p>
 <br>
-This is a working example if you want to check: https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json)
+This is a working example if you want to check: https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json
 <br>
 <br>
 
