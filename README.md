@@ -22,10 +22,9 @@ Create a GitHub repository
 There are several IIIF compatible viewers offered by institutions and projects which allow to display and discover your 3D model by simply specifying the address of your IIIF manifest in the html address. Here is a (non-extensive) list:
 <br>
 ### **[MorphoSource](https://www.morphosource.org/)** - a 3D repository of Duke University:
-<br>
 To use MorphoSource, simply append the address of your own IIIF manifest to the following web address section:
 <br>
-**<https://www.morphosource.org/uv/uv.html#?manifest=>**
+<p style="text-align:center;">**<https://www.morphosource.org/uv/uv.html#?manifest=>**</https:>p>
 <br>
 Thus, your full address may be as follows: 
 <br>
