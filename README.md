@@ -19,8 +19,8 @@ Create a GitHub repository
 There are several IIIF compatible viewers offered by institutions and projects which allow to display and discover your 3D model by simply specifying the address of your IIIF manifest in the html address. Here is a (non-extensive) list:
 [MorphoSource](https://www.morphosource.org/) - a 3D repository of Duke University: To use MorphoSource, simply append the address of your own IIIF manifest to the following web address section:
 [https://www.morphosource.org/uv/uv.html#?manifest=](https://www.morphosource.org/uv/uv.html#?manifest=)
-Thus, your full address may be as follows: [[https://uv-v4.netlify.app/#?manifest=](https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json]([https://uv-v4.netlify.app/#?manifest=](https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json)
-[Here]([https://uv-v4.netlify.app/#?manifest=](https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
+Thus, your full address may be as follows: [https://uv-v4.netlify.app/#?manifest=https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json](https://uv-v4.netlify.app/#?manifest=https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json)
+[Here](https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json) is a working example if you want to check.
 
 [Universal Viewer:](https://universalviewer.io/) To use Universal Viewer, simply append the address of your own IIIF manifest to the following web address section:
 [https://uv-v4.netlify.app/#?manifest=](https://uv-v4.netlify.app/#?manifest=).
