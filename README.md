@@ -13,15 +13,21 @@ You need to deploy the 3D model and the IIIF-manifesto, otherwise you will run i
 
 # How to deploy a 3D model with the help of GitHub Pages
 
-In order to make the final version of the 3D model publicly available you can use GitHub Pages. 
-Log in to your GitHub account, or create an account if you haven't one yet.
+In order to make the final version of the 3D model publicly available you can use GitHub Pages. GitHub offers one site per GitHub account and organisation for free.
+<br>
+Log in to your GitHub account, or first create an account if you haven't one yet.
 
 You need to have the following items ready:
 1. 3D model: Export your 3D model from Blender in .glb format. Be aware that if one or more camera(s) and light(s) have been defined in the 3D model in Blender - e.g. to create a special lighting situation - the export of these settings does not happen automatically. Thus, you need to tick the ‘Cameras’ and ‘Punctual lights’ boxes under ‘Include’ on the right-hand side of the Blender export window.
 2. IIIF manifesto: my_manifest.json
 3. Paradata: paradata documentation in pdf format
+4. A thumbnail of your 3D model in .png format named thumb.png
 
-Create a GitHub repository `my_repository` where you want to store your 3D models, the iiif-manifests, and the paradata information.
+Create a new GitHub repository `my_repository` where you want to store your 3D models, the iiif-manifests, and the paradata information. I suggest to organise the material which will be uploaded into further sub-folders.
+<br>
+1. create a subfolder `assets`: here the 3D model `my_model.glb` will be uploaded
+2. create a subfolder `iiif-manifests`: here the IIIF manifesto `my_manifest.json` and the thumbnail `thumb.png` will be uploaded
+3. create a subfolder `paradata`: here the pdf file with the paradata `my_paradata.pdf` will be uploaded
 
 
 # Displaying and discovering your 3D model
@@ -38,7 +44,7 @@ To use MorphoSource, simply append the address of your own IIIF manifesto to the
 Thus, your full address may be as follows: 
 <br>
 <p align="center">
-https&#8204;://www&#8204;.morphosource.org/uv/uv.html#?manifest=https&#8204;://my_username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
+https&#8204;://www&#8204;.morphosource.org/uv/uv.html#?manifest=https&#8204;://my_username.github.io/my_repository/iiif-manifests/my_manifest.json
 </p>
 <br>
 This is a working example if you want to check: https://www.morphosource.org/uv/uv.html#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json
@@ -55,7 +61,7 @@ To use Universal Viewer, simply append the address of your own IIIF manifesto to
 Thus, your full address may be as follows:
 <br>
 <p align="center">
-https&#8204;://uv-v4.netlify.app/#?manifest=https&#8204;://my_username.github.io/my_repository/iiif-manifests/my_manifest/my_manifest.json
+https&#8204;://uv-v4.netlify.app/#?manifest=https&#8204;://my_username.github.io/my_repository/iiif-manifests/my_manifest.json
 </p>
 <br>
 This is a working example if you want to check: https://uv-v4.netlify.app/#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json
