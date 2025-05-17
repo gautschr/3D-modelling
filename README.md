@@ -21,7 +21,7 @@ You need to have the following items ready:
 2. IIIF manifesto: my_manifest.json
 3. Paradata: paradata documentation in pdf format
 
-Create a GitHub repository 'my_repository' where you want to store your 3D models, the iiif-manifests, and the paradata information.
+Create a GitHub repository `my_repository` where you want to store your 3D models, the iiif-manifests, and the paradata information.
 
 
 # Displaying and discovering your 3D model
@@ -31,7 +31,7 @@ There are several IIIF compatible viewers offered by institutions and projects w
 ### **[MorphoSource](https://www.morphosource.org/)** - a 3D repository of Duke University:
 To use MorphoSource, simply append the address of your own IIIF manifesto to the following web address section:
 <br>
-**<https://www.morphosource.org/uv/uv.html#?manifest=>**
+>>> **<https://www.morphosource.org/uv/uv.html#?manifest=>**
 <br>
 <br>
 Thus, your full address may be as follows: 
@@ -46,7 +46,7 @@ https://www.morphosource.org/uv/uv.html#?manifest=https://username.github.io/my_
 ### **[Universal Viewer:](https://universalviewer.io/)**
 To use Universal Viewer, simply append the address of your own IIIF manifesto to the following web address section:
 <br>
-**<https://uv-v4.netlify.app/#?manifest=>**
+>>> **<https://uv-v4.netlify.app/#?manifest=>**
 <br>
 <br>
 Thus, your full address may be as follows:
