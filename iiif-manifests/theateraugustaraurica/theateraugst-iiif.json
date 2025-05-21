@@ -1,0 +1,277 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://github.com/gautschr/3D-modelling/tree/main/iiif-manifests/theateraugustaraurica/theateraugustaraurica.json",
+  "type": "Manifest",
+  "label": {
+    "en": [ "Roman theatre in Augusta Raurica" ]
+  },
+  "summary": { "en": [ "This 3D model is a simplified version of the roman thatre in augusta raurica. It is intended for learning purposes." ] },
+  "items": [
+    {
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/theateraugustaraurica/scene1/p1/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/theateraugustaraurica/scene1/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/theateraugustaraurica/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/theateraugust.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/theateraugustaraurica/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.03,
+                    "z": 0.05
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Roman Theatre in Augusta Raurica"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Description"
+        ]
+      },
+      "value": {
+        "@none": [
+          "This 3D model is a simplified version of the Roman Theatre in Augusta Raurica. It is intended for learning purposes."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Course information"
+        ]
+      },
+      "value": {
+        "@none": [
+          "The 3D model was created during a class on 3D modeling for archaeologists taught at the University of Basel in the spring semester 2025. A very limited amount of time was spent to build the model to illustrate what is possible for beginners without any prior knowledge of the software Blender. The focus of the class was more on the creation of paradata, metadata, and of a IIIF manifest according to the current recommendations of the IIIF 3D TSG group than on delivering a final 3D model of good quality. Another important aim of this course was to show students how they can deploy and view their 3D model."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Roman theatre in Augusta Raurica"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object type"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Theatre"
+        ]
+      }
+    },
+       {
+      "label": {
+        "@none": [
+          "Wikipedia"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://de.wikipedia.org/wiki/Augusta_Raurica#Theater<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Official website"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.augustaraurica.ch/besuchen/theater/<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Augusta Raurica"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Detail"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Theatre"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location GoogleMaps"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.google.com/maps/place/Theater+Augusta+Raurica/@47.5336652,7.7221463,17.5z/data=!4m6!3m5!1s0x4791b5d947fa01bb:0xde06317ae069b2f5!8m2!3d47.5333449!4d7.7221916!16s%2Fg%2F1tlgwwrh?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D<a/>"
+        ]
+      }
+    },
+
+    },
+    {
+      "label": {
+        "@none": [
+          "Model Licence"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">Attribution 4.0 International (CC BY)<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Larissa Aemisegger"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Used Software"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Blender 4.3"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Larissa Aemisegger"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creation Time Span"
+        ]
+      },
+      "value": {
+        "@none": [
+          "2025-02-15 — 2025-05-21"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Paradata"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://github.com/gautschr/3D-modelling/blob/main/paradata/Paradata_of_the_theatre_in_augusta_raurica.pdf.pdf\">Paradata of the theatre in augusta raurica<a/>"
+        ]
+      }
+    }
+  ],
+  "attribution": "Provided by Larissa Aemisegger",
+  "thumbnail": [
+    {
+      "id": "https://github.com/gautschr/3D-modelling/blob/main/iiif-manifests/theateraugustaraurica/thumb.png",
+      "type": "Image"
+    }
+  ]
+}
