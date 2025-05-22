@@ -3,7 +3,7 @@
     "http://iiif.io/api/presentation/4/context.json",
     "http://iiif.io/api/extension/3d/context.json"
   ],
-  "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/TempeldesBaalschamin/TempeldesBaalschamin.json",
+  "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/TempeldesBaalschamin/TempeldesBaalschamin_drive.json",
   "type": "Manifest",
   "label": {
     "en": ["Temple of Baalshamin from Palmyra"]
