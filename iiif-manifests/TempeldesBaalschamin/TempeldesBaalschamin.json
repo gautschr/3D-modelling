@@ -18,7 +18,7 @@
 
     { 
 
-      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/Baalshamin/scene1/p1/1", 
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/TempeldesBaalschamin/scene1/p1/1", 
 
       "type": "Scene", 
 
@@ -26,7 +26,7 @@
 
         { 
 
-          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/scene1/p1/1", 
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/TempeldesBaalschamin/scene1/p1/1", 
 
           "type": "AnnotationPage", 
 
@@ -34,7 +34,7 @@
 
             { 
 
-              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/anno1", 
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/TempeldesBaalschamin/anno1", 
 
               "type": "Annotation", 
 
@@ -58,7 +58,7 @@
 
                   { 
 
-                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/scene1/page/p1/1", 
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/TempeldesBaalschamin/scene1/page/p1/1", 
 
                     "type": "Scene" 
 
@@ -210,7 +210,7 @@
 
         "@none": [ 
 
-          "Baalschamin" 
+          "Temple" 
 
         ] 
 
@@ -265,31 +265,6 @@
       } 
 
     }, 
-
-    { 
-
-      "label": { 
-
-        "@none": [ 
-
-          "Official website" 
-
-        ] 
-
-      }, 
-
-      "value": { 
-
-        "@none": [ 
-
-          "<a href=\"https://www.ostiaantica.beniculturali.it/\">https://www.ostiaantica.beniculturali.it/<a/>" 
-
-        ] 
-
-      } 
-
-    }, 
-
     { 
 
       "label": { 
@@ -306,38 +281,13 @@
 
         "@none": [ 
 
-          "Ostia" 
+          "Palmyra" 
 
         ] 
 
       } 
 
     }, 
-
-    { 
-
-      "label": { 
-
-        "@none": [ 
-
-          "Location Detail" 
-
-        ] 
-
-      }, 
-
-      "value": { 
-
-        "@none": [ 
-
-          "Regio I, Insula XVII" 
-
-        ] 
-
-      } 
-
-    }, 
-
     { 
 
       "label": { 
@@ -451,30 +401,6 @@
         "@none": [ 
 
           "University of Basel" 
-
-        ] 
-
-      } 
-
-    }, 
-
-    { 
-
-      "label": { 
-
-        "@none": [ 
-
-          "Author ORCID" 
-
-        ] 
-
-      }, 
-
-      "value": { 
-
-        "@none": [ 
-
-          "<a href=\"https://orcid.org/0000-0002-5470-8720\">https://orcid.org/0000-0002-5470-8720<a/>" 
 
         ] 
 
@@ -606,13 +532,13 @@
 
   ], 
 
-  "attribution": "Provided by Rita Gautschy", 
+  "attribution": "Provided by Alexandra Esseiva", 
 
   "thumbnail": [ 
 
     { 
 
-      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/mitreo/thumb.png", 
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/TempeldesBaalschamin/thumb.png", 
 
       "type": "Image" 
 
