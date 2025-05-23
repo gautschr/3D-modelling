@@ -164,7 +164,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">Attribution 4.0 International (CC BY)<a/>"
+          "<a href=\"https://creativecommons.org/licenses/by/3.0/deed.en\">Attribution 3.0 International (CC BY)<a/>"
         ]
       }
     },
@@ -248,7 +248,7 @@
       },
       "value": {
         "@none": [
-          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_of_the_Old_Hera_Temple_at_Paestum.pdf\">Paradata of the Old Hera Temple at Paestum<a/>"
+          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_of_the_Pool_Complex_in_ Petra.pdf\">Paradata of the Pool Complex in Petra<a/>"
         ]
       }
     }
@@ -256,7 +256,7 @@
   "attribution": "Provided by Daniel Rancic",
   "thumbnail": [
     {
-      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/poolcomplex/thumb.png",
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/pool/thumb.png",
       "type": "Image"
     }
   ]
