@@ -27,7 +27,7 @@ In order to make the final version of the 3D model publicly available you can us
 Log in to your GitHub account, or first create an account if you haven't one yet.
 
 You need to have the following items ready:
-1. 3D model: Export your 3D model from Blender in .glb format. Be aware that if one or more camera(s) and light(s) have been defined in the 3D model in Blender - e.g. to create a special lighting situation - the export of these settings does not happen automatically. Thus, you need to tick the ‘Cameras’ and ‘Punctual lights’ boxes under ‘Include’ on the right-hand side of the Blender export window. **Be aware that the maximum size allowed by GitHub for a file upload is 25 MB - thus your 3D model in .göb format must not exceed 25 MB.**
+1. 3D model: Export your 3D model from Blender in .glb format. Be aware that if one or more camera(s) and light(s) have been defined in the 3D model in Blender - e.g. to create a special lighting situation - the export of these settings does not happen automatically. Thus, you need to tick the ‘Cameras’ and ‘Punctual lights’ boxes under ‘Include’ on the right-hand side of the Blender export window. **Be aware that the maximum size allowed by GitHub for a file upload is 25 MB - thus your 3D model in .glb format must not exceed 25 MB, otherwise it cannot be deployed via GitHUb Pages.**
 2. IIIF manifesto: my_manifest.json
 3. Paradata: paradata documentation in pdf format
 4. A thumbnail of your 3D model in .png format named thumb.png
