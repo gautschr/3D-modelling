@@ -1,0 +1,373 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/mitreo_light.json",
+  "type": "Manifest",
+  "label": {
+    "en": [ "Mithraeum in the Baths of Mithras in Ostia" ]
+  },
+  "summary": { "en": [ "This 3D model is a simplified version of the Mithraeum in the Baths of Mithras in Ostia. It is intended for teaching purposes." ] },
+  "items": [
+    {
+      "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/scene1/p1/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/scene1/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/anno1",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/main/assets/mitreo_light.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.03,
+                    "z": 0.05
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/anno2",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                  "id": "https://github.com/gautschr/3D-modelling/lights/1",
+                  "type": "DirectionalLight",
+                  "label": {"en": ["Directional Light 1"]},
+                  "lookAt": {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/anno1",
+                    "type": "Annotation"
+                  }
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitrei/scene1/page/p1/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 3.0,
+                    "z": 10.0
+                  }
+                ]                  
+              }
+            },
+            {
+              "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/anno3",
+              "type": "Annotation",
+              "motivation": ["painting"],
+              "body": {
+                "id": "https://github.com/gautschr/3D-modelling/cameras/1",
+                "type": "PerspectiveCamera",
+                "label": {"en": ["Perspective Camera 1"]},
+                "lookAt": {
+                  "type": "PointSelector",
+                  "x": 2,
+                  "y": 1,
+                  "z": 0
+                }
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://github.com/gautschr/3D-modelling/edit/main/iiif_manifests/mitreo/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 3.0,
+                    "z": -10.0
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "label": {
+        "@none": [
+          "Title"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Mithraeum in the Baths of Mithras in Ostia"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Description"
+        ]
+      },
+      "value": {
+        "@none": [
+          "This 3D model is a simplified version of the Mithraeum in the Baths of Mithras in Ostia. It is intended for teaching purposes."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Course information"
+        ]
+      },
+      "value": {
+        "@none": [
+          "The 3D model was created during a class on 3D modeling for archaeologists taught at the University of Basel in the spring semester 2025. A very limited amount of time was spent to build the model to illustrate what is possible for beginners without any prior knowledge of the software Blender. The focus of the class was more on the creation of paradata, metadata, and of a IIIF manifest according to the current recommendations of the IIIF 3D TSG group than on delivering a final 3D model of good quality. Another important aim of this course was to show students how they can deploy and view their 3D model."
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Mithraeum in the Baths of Mithras in Ostia"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Object type"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Mithraeum"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Wikidata"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.wikidata.org/wiki/Q1939738\">https://www.wikidata.org/wiki/Q1939738<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Wikipedia"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://it.wikipedia.org/wiki/Mitreo_delle_Terme_del_Mitra\">https://it.wikipedia.org/wiki/Mitreo_delle_Terme_del_Mitra<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Official website"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.ostiaantica.beniculturali.it/\">https://www.ostiaantica.beniculturali.it/<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Ostia"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Detail"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Regio I, Insula XVII"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Geonames"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://www.geonames.org/8378691\">https://www.geonames.org/8378691<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Location Pleiades"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://pleiades.stoa.org/places/422995\">https://pleiades.stoa.org/places/422995<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Model Licence"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://creativecommons.org/licenses/by/4.0/deed.en\">Attribution 4.0 International (CC BY)<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Rita Gautschy"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Author ORCID"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://orcid.org/0000-0002-5470-8720\">https://orcid.org/0000-0002-5470-8720<a/>"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Used Software"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Blender 4.3.2"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Name"
+        ]
+      },
+      "value": {
+        "@none": [
+          "Rita Gautschy"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creator Affiliation"
+        ]
+      },
+      "value": {
+        "@none": [
+          "University of Basel"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Creation Time Span"
+        ]
+      },
+      "value": {
+        "@none": [
+          "2025-02-15 — 2025-03-26"
+        ]
+      }
+    },
+    {
+      "label": {
+        "@none": [
+          "Paradata"
+        ]
+      },
+      "value": {
+        "@none": [
+          "<a href=\"https://gautschr.github.io/3D-modelling/paradata/Paradata_mitreo.pdf\">Paradata of the Mithraeum in the Baths of Mithras in Ostia<a/>"
+        ]
+      }
+    }
+  ],
+  "attribution": "Provided by Rita Gautschy",
+  "thumbnail": [
+    {
+      "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/mitreo/thumb.png",
+      "type": "Image"
+    }
+  ]
+}
