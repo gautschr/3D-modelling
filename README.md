@@ -83,7 +83,7 @@ https&#8204;://uv-v4.netlify.app/#?manifest=https&#8204;://my_username.github.io
 <br>
 This is a working example if you want to check: https://uv-v4.netlify.app/#?manifest=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json
 
-### **[Voyager:]([https://universalviewer.io/](https://smithsonian.github.io/dpo-voyager/))** - a 3D explorer and authoring tool suite provided by Smithsonian
+### **[Voyager:](https://smithsonian.github.io/dpo-voyager/)** - a 3D explorer and authoring tool suite provided by Smithsonian
 To use Smithsonian Voyager, simply append the address of your own IIIF manifesto to the following web address section:
 <br>
 <p align="center">
