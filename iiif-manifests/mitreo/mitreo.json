@@ -305,7 +305,8 @@
   "thumbnail": [
     {
       "id": "https://gautschr.github.io/3D-modelling/iiif_manifests/mitreo/thumb.png",
-      "type": "Image"
+      "type": "Image",
+      "format": "image/png"
     }
   ]
 }
