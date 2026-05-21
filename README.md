@@ -10,7 +10,7 @@ There are several ways to create a IIIF manifest.
 
 1. If you have some knowledge about IIIF manifests choose a sample IIIF manifest from the [IIIF GitHub repository](https://github.com/IIIF/3d/tree/main/manifests) and adapt it manually to your needs.
 2. Use the newly developed [Blender plugin](https://github.com/IIIF-Commons/iiif_3d_blender_plugin) to create a more complex IIIF manifest.
-3. Use a IIIF manifest editor. You may use the publicly available and open-source [Smithsonian Voyager web app](https://smithsonian.github.io/voyager-dev/iiif-manifest/)) to create new, and to edit existing IIIF manifests with 3D content. 
+3. Use a IIIF manifest editor. You may use the publicly available and open-source [Smithsonian Voyager web app](https://smithsonian.github.io/voyager-dev/iiif-manifest/) to create new, and to edit existing IIIF manifests with 3D content. You may also use one of two applications which are based on Smithosian Voyager and developped by students of the University of Wisconsin Stout during a Software Engineering Practicum in spring 2026 which was directed by Dr. Thomas Tyler: [IIIF 3D Manifest Editor](https://wilsont0554.github.io/ManifestEditor/#/) or [Voyager Standalone](https://iiif.lfod.top/main/voyager-story-dev.html). 
 <br>
 <br>
 
