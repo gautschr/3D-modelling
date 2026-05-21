@@ -47,6 +47,10 @@ Each time something is changed in the respective repository, a new deployment of
 <br>
 <br>
 
+# Validate your IIIF manifest
+Once you have deployed your IIIF manifest you should validate it. Paste the URL of your manifest into the [Presentation API Validator](https://presentation-validator.iiif.io/), choose the API version and click "Go". If it validates properly any IIIF compatible viewer should be able to display your model and all information within the IIIF manifest properly.
+
+
 # Displaying and discovering your 3D model
 
 There are several IIIF compatible viewers offered by institutions and projects which allow to display and discover your 3D model by simply specifying the address of your IIIF manifest in the html address. Here is a (non-extensive) list:
