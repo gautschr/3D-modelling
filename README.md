@@ -96,5 +96,5 @@ Thus, your full address may be as follows:
 https&#8204;://smithsonian.github.io/voyager-dev/iiif/iiif_demo?iiif-content=https&#8204;://my_username.github.io/my_repository/iiif-manifests/my_manifest.json
 </p>
 <br>
-This is a working example if you want to check: https&#8204;://smithsonian.github.io/voyager-dev/iiif/iiif_demo?iiif-content=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json
+This is a working example if you want to check: https://smithsonian.github.io/voyager-dev/iiif/iiif_demo?iiif-content=https://gautschr.github.io/3D-modelling/iiif-manifests/mitreo/mitreo.json
  
