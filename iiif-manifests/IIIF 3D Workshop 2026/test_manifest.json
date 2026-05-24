@@ -1,0 +1,87 @@
+{
+  "id": "https://example.org/iiif/manifest/f1b5193b-d5a6-426e-9817-0eff8164c7b9",
+  "type": "Manifest",
+  "items": [
+    {
+      "id": "https://example.org/iiif/manifest/1/scene/1",
+      "type": "Scene",
+      "items": [
+        {
+          "id": "https://example.org/iiif/manifest/1/scene/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/manifest/1/scene/1/anno/1",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                    "type": "Model",
+                    "format": "model/gltf-binary",
+                    "label": {
+                      "en": [
+                        "Astronaut"
+                      ]
+                    },
+                    "metadata": [
+                      {
+                        "label": {
+                          "en": [
+                            "Description"
+                          ]
+                        },
+                        "value": {
+                          "en": [
+                            "blabla"
+                          ]
+                        }
+                      }
+                    ],
+                    "presetType": "Origin"
+                  }
+                ]
+              },
+              "target": {
+                "id": "https://example.org/iiif/manifest/1/scene/1/anno/1/target",
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/manifest/1/scene/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": -1.2,
+                    "y": -1.1,
+                    "z": 0
+                  }
+                ]
+              },
+              "label": {
+                "en": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "label": {
+    "en": [
+      "Astronaut"
+    ]
+  },
+  "summary": {
+    "en": [
+      "This is a basic model to play around."
+    ]
+  },
+  "rights": "CC0"
+}
