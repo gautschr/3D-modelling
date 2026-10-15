@@ -9,7 +9,7 @@
   },
   "summary": {
     "en": [
-      "Web preview of the photogrammetric 3D model of a microscope made by E. Leitz GmbH, Wetzlar, in 1908 (ETH Library, Collection of Scientific Instruments). The scene places the model at the origin with a perspective camera, an ambient light and a directional light."
+      "Web preview of the photogrammetric 3D model of a microscope made by E. Leitz GmbH, Wetzlar, in 1908 (ETH Library, Collection of Scientific Instruments). The scene rotates the model upright (the GLB is delivered lying on its side) and places it at the origin with a perspective camera, an ambient light and a directional light."
     ]
   },
   "metadata": [
@@ -169,13 +169,37 @@
                 "painting"
               ],
               "body": {
-                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/assets/ETHZ_GEOB_0055.glb",
-                "type": "Model",
-                "format": "model/gltf-binary"
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/model/body",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/assets/ETHZ_GEOB_0055.glb",
+                  "type": "Model",
+                  "format": "model/gltf-binary"
+                },
+                "transform": [
+                  {
+                    "type": "RotateTransform",
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": -90.0
+                  }
+                ]
               },
               "target": {
-                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
-                "type": "Scene"
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/target/model",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  }
+                ]
               }
             },
             {
