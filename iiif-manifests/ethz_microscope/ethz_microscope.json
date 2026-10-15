@@ -1,0 +1,290 @@
+{
+  "@context": "http://iiif.io/api/presentation/4/context.json",
+  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/ethz_microscope.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Microscope, E. Leitz GmbH, 1908 (ETHZ GEOB 0055)"
+    ]
+  },
+  "summary": {
+    "en": [
+      "Web preview of the photogrammetric 3D model of a microscope made by E. Leitz GmbH, Wetzlar, in 1908 (ETH Library, Collection of Scientific Instruments). The scene places the model at the origin with a perspective camera, an ambient light and a directional light."
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Object name"
+        ]
+      },
+      "value": {
+        "de": [
+          "Mikroskop, E. Leitz GmbH"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Inventory number"
+        ]
+      },
+      "value": {
+        "none": [
+          "ETHZ GEOB 0055"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Holding institution"
+        ]
+      },
+      "value": {
+        "en": [
+          "ETH Library, Zurich"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Manufacturer"
+        ]
+      },
+      "value": {
+        "none": [
+          "E. Leitz GmbH, Wetzlar"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1908"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Material"
+        ]
+      },
+      "value": {
+        "de": [
+          "Metall (allgemein); Messing; Holz (allgemein); Glas"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Dimensions"
+        ]
+      },
+      "value": {
+        "en": [
+          "19 x 26 x 36 cm; 7187 g"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Acquisition"
+        ]
+      },
+      "value": {
+        "en": [
+          "Photogrammetry (DSLR, RAW), black background, studio camera and lighting; Agisoft Metashape, Blender, Photoshop; Christian Felsner, ETH Library, 2026"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Web preview"
+        ]
+      },
+      "value": {
+        "en": [
+          "GLB derived from the archival OBJ master (6.67 million faces, 8192 px texture) with the DaSCH mesh pipeline: 600,000 faces, 2048 px texture, Draco compression (q14), 2.8 MB"
+        ]
+      }
+    }
+  ],
+  "rights": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "requiredStatement": {
+    "label": {
+      "en": [
+        "Attribution"
+      ]
+    },
+    "value": {
+      "en": [
+        "3D model: ETH Library, Collection of Scientific Instruments, Christian Felsner (CC BY-SA 4.0). Web preview and IIIF manifest: DaSCH, Rita Gautschy (CC BY-SA 4.0)."
+      ]
+    }
+  },
+  "homepage": [
+    {
+      "id": "https://doi.org/10.21264/ethz-a-000016228",
+      "type": "Text",
+      "label": {
+        "en": [
+          "ETH Library catalogue record"
+        ]
+      },
+      "format": "text/html"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
+      "type": "Scene",
+      "label": {
+        "en": [
+          "Microscope with camera and lights"
+        ]
+      },
+      "backgroundColor": "#2B2B2B",
+      "items": [
+        {
+          "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/model",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/assets/ETHZ_GEOB_0055.glb",
+                "type": "Model",
+                "format": "model/gltf-binary"
+              },
+              "target": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
+                "type": "Scene"
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/camera",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/camera/1",
+                "type": "PerspectiveCamera",
+                "label": {
+                  "en": [
+                    "Three-quarter view from the front"
+                  ]
+                },
+                "lookAt": {
+                  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/model",
+                  "type": "Annotation"
+                }
+              },
+              "target": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/target/camera",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.25,
+                    "y": 0.15,
+                    "z": 0.45
+                  }
+                ]
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/ambient",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/light/ambient",
+                "type": "AmbientLight",
+                "label": {
+                  "en": [
+                    "Soft white ambient light"
+                  ]
+                },
+                "color": "#FFFFFF",
+                "intensity": {
+                  "type": "Quantity",
+                  "quantityValue": 0.4,
+                  "unit": "relative"
+                }
+              },
+              "target": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
+                "type": "Scene"
+              }
+            },
+            {
+              "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/key",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/light/key",
+                "type": "DirectionalLight",
+                "label": {
+                  "en": [
+                    "Warm key light from upper right"
+                  ]
+                },
+                "color": "#FFF4E0",
+                "intensity": {
+                  "type": "Quantity",
+                  "quantityValue": 1.0,
+                  "unit": "relative"
+                },
+                "lookAt": {
+                  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/anno/model",
+                  "type": "Annotation"
+                }
+              },
+              "target": {
+                "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/target/key",
+                "type": "SpecificResource",
+                "source": {
+                  "id": "https://raw.githubusercontent.com/gautschr/3D-modelling/ethz-microscope-iiif/iiif-manifests/ethz_microscope/scene/1",
+                  "type": "Scene"
+                },
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0.6,
+                    "y": 0.9,
+                    "z": 0.7
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
